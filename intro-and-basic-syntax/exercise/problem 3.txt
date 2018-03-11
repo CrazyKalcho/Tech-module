@@ -1,0 +1,16 @@
+using System;
+
+namespace MilesToMeters
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double miles = double.Parse(Console.ReadLine());
+            double meters = miles * 1.60934;
+            Console.WriteLine($"{meters:F2}");
+
+
+        }
+    }
+}
