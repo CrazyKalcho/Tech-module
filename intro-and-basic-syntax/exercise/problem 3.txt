@@ -7,8 +7,8 @@ namespace MilesToMeters
         static void Main(string[] args)
         {
             double miles = double.Parse(Console.ReadLine());
-            double meters = miles * 1.60934; // Converting miles into meters
-            Console.WriteLine($"{meters:F2}"); // Printing the converted miles
+            double milesToMeters = miles * 1.60934; // Converting miles into meters
+            Console.WriteLine($"{milesToMeters:F2}"); // Printing the converted miles
 
 
         }

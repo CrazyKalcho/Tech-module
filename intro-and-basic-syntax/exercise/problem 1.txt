@@ -6,12 +6,12 @@ namespace DebitCardNumber
     {
         static void Main(string[] args)
         {
-            int firstNumber = int.Parse(Console.ReadLine()); //Reading first number from the console
-            int secondtNumber = int.Parse(Console.ReadLine()); //Reading second number from the console
-            int thirdNumber = int.Parse(Console.ReadLine()); //Reading third number from the console
-            int fourthNumber = int.Parse(Console.ReadLine()); //Reading fourth number from the console
+            int firstNum = int.Parse(Console.ReadLine()); //Reading first number from the console
+            int secondtNum = int.Parse(Console.ReadLine()); //Reading second number from the console
+            int thirdNum = int.Parse(Console.ReadLine()); //Reading third number from the console
+            int fourthNum = int.Parse(Console.ReadLine()); //Reading fourth number from the console
 
-            Console.WriteLine($"{firstNumber:D4} {secondtNumber:D4} {thirdNumber:D4} {fourthNumber:D4}"); //Printing the numbers on the console
+            Console.WriteLine($"{firstNum:D4} {secondtNum:D4} {thirdNum:D4} {fourthNum:D4}"); //Printing the numbers on the console
             
         }
     }
