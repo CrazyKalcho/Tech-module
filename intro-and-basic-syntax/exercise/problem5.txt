@@ -2,19 +2,22 @@ using System;
 
 namespace CharacterStats
 {
+// not clear purpose of program
     class Program
     {
         static void Main(string[] args)
         {
+            //inicializing vars
             string name = Console.ReadLine();
             int currentHealth = int.Parse(Console.ReadLine());
             int maxHealth = int.Parse(Console.ReadLine());
             int currentEnergy = int.Parse(Console.ReadLine());
             int maxEnergy = int.Parse(Console.ReadLine());
 
+            //concating health energy bars from formula
             string health = "|" + new string('|', currentHealth) + new string('.',maxHealth-currentHealth) + "|";
             string energy = "|" + new string('|', currentEnergy) + new string('.',maxEnergy-currentEnergy) + "|";
-
+            //printing result
             Console.Write($"Name: {name}\r\nHealth: {health}\r\nEnergy: {energy}");
 
 
