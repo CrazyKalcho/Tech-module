@@ -1,3 +1,4 @@
+//CONFIRMED from <Crazyrng>
 using System;
 using System.Collections.Generic;
 // this linq lib is not needed
@@ -7,25 +8,26 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-// unclear purpose of the program
+    // unclear purpose of the program
     class Program
     {
         static void Main(string[] args)
         {
-		
+
             // getting input and inicializing variables
             string name = Console.ReadLine();
             double volume = double.Parse(Console.ReadLine());
             double bodyEnergy = double.Parse(Console.ReadLine());
             double bloodSugar = double.Parse(Console.ReadLine());
-            
+
             // doing the maths and printing
-            double energyCont = energy(volume  100);
-            double sugarCont = sugar(volume  100);
-            Console.WriteLine(${volume}ml {name});
-            Console.Write(${energyCont}kcal, );
-            Console.WriteLine(${sugarCont}g sugars);
+            double energyCont = bodyEnergy*(volume/100);
+            double sugarCont = bloodSugar*(volume/100);
+            Console.WriteLine($"{volume}ml {name}:");
+            Console.Write($"{energyCont}kcal, ");
+            Console.WriteLine($"{sugarCont}g sugars");
         }
     }
 }
+
                                     

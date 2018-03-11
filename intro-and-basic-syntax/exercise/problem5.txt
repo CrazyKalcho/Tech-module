@@ -1,4 +1,4 @@
-//Confirmed & fixed by <Crazyrng>
+//CONFIRMED from <Crazyrng>
 using System;
 
 namespace CharacterStats
