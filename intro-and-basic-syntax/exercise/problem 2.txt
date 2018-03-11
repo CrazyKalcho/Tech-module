@@ -6,11 +6,11 @@ namespace RectangleArea
     {
         static void Main(string[] args)
         {
-            double sideA = double.Parse(Console.ReadLine());
-            double sideB = double.Parse(Console.ReadLine());
-            double area = sideA * sideB;
+            double sideA = double.Parse(Console.ReadLine()); //Reading side A from the console
+            double sideB = double.Parse(Console.ReadLine()); //Reading side B from the console
+            double area = sideA * sideB; //Calculating the area
 
-            Console.WriteLine($"{area:F2}");
+            Console.WriteLine($"{area:F2}"); //Printing area
         }
     }
 }
