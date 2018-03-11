@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+            double volume = double.Parse(Console.ReadLine());
+            double energy = double.Parse(Console.ReadLine());
+            double sugar = double.Parse(Console.ReadLine());
+
+            double energyCont = energy  (volume  100);
+            double sugarCont = sugar  (volume  100);
+            Console.WriteLine(${volume}ml {name});
+            Console.Write(${energyCont}kcal, );
+            Console.WriteLine(${sugarCont}g sugars);
+        }
+    }
+}
+                                    
