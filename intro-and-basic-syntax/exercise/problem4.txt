@@ -16,8 +16,8 @@ namespace ConsoleApp1
             // getting input and inicializing variables
             string name = Console.ReadLine();
             double volume = double.Parse(Console.ReadLine());
-            double energy = double.Parse(Console.ReadLine());
-            double sugar = double.Parse(Console.ReadLine());
+            double bodyEnergy = double.Parse(Console.ReadLine());
+            double bloodSugar = double.Parse(Console.ReadLine());
             
             // doing the maths and printing
             double energyCont = energy(volume  100);
